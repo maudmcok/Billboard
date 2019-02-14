@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_command"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Command" />
+        <item
+            android:id="@+id/nav_favorie"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="Favoris" />
+    </group>
+
+    <item android:title="*** *-* ***">
+        <menu>
+            <item
+                android:id="@+id/nav_profil"
+                android:icon="@android:drawable/ic_dialog_info"
+                android:title="Profil" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Partager" />
+
+            <item
+                android:id="@+id/nav_deconnexion"
+                android:icon="@drawable/fui_idp_button_background_email"
+                android:title="Déconnexion" />
+        </menu>
+    </item>
+
+</menu>
